@@ -12,4 +12,18 @@ public class SortSelectedTest {
         int[] expect = new int[] {1, 2, 3, 4, 5};
         assertThat(result, is(expect));
     }
+    @Test
+    public void whenSort1() {
+        int[] input = new int[] {69, 4, 8, 5, 40};
+        int[] result = SortSelected.sort(input);
+        int[] expect = new int[] {4, 5, 8, 40, 69};
+        assertThat(result, is(expect));
+    }
+    @Test
+    public void whenSort2() {
+        int[] input = new int[] {69, 4, 8, 5, 40, 100, 77};
+        int[] result = SortSelected.sort(input);
+        int[] expect = new int[] {4, 5, 8, 40, 69, 77, 100};
+        assertThat(result, is(expect));
+    }
 }
