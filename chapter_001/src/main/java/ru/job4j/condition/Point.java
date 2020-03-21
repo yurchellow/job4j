@@ -5,7 +5,7 @@ public class Point {
         double rsl = -1;
         int x1x2 = x1 - x2;
         int y2y1 = y2 - y1;
-        x1x2 = x1x2*x1x2;
+        x1x2 = x1x2 * x1x2;
         y2y1 = y2y1 * y2y1;
         int d = x1x2 + y2y1;
         rsl = Math.sqrt(d);

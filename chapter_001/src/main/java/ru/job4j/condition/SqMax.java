@@ -8,7 +8,7 @@ public class SqMax {
                 if (first > forth) {
                     result = first;
                 }
-            }else if (forth > first) {
+            } else if (forth > first) {
                         result = forth;
                     }
         } else if (second > third) {
